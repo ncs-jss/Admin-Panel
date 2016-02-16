@@ -4,17 +4,17 @@ body {
     padding: 0;
     height:500px;
     width:100%;
-    font-family:'Open Sans' ,sans serif;
+    font-family:helvetica;
     font-weight: 300;
-    background-color: #263238;
+    background-color: #f7ce3e;
     color: white;
 }
 header {
-    background-color:#212121;
+    background-color:#1a2930;
     width: 100%;
-    height: 15%;
+    height: 10%;
     text-align:center;
-    padding: 5px 0 5px 0;     
+    padding: 1% 0 0.5% 0;     
 }
 span > a {
 	text-decoration: none;
@@ -23,86 +23,48 @@ span > a {
 #span_1 {
 	float: left;
 	font-size: 30px;
-	padding: 15px 0 5px 200px; 
+	padding: 0 0 0 200px; 
 }
 #span_2{
 	float: right;
 	font-size: 30px;
-    padding: 15px 200px 5px 0px; 
+    padding: 0 200px 0 0px; 
+}
+#span_2 a {
+	color: white;
 }
 
+#img {
+	position: fixed;
+	top: 15%;
+	right: 35%;
+}
+#img a {
+	text-decoration: none;
+	color: black;
+}
 
 #on img {
-	float: left;
-	padding: 5%;
-	width: 35%;
-	height: 50%;
+	position: fixed;
+	top: 45%;
+	left: 20%;
+	width: 40%;
+	height: 55%;
 }
-#writ img {
-	float: right;
-	width: 35%;
-	height: 50%;
-	padding: 5%;
-}
-#onsite {
+
+
+#write {
+
 	position: fixed;
 	top: 20%;
-	right: 30%;
-	background-color: white;
+	right: 40.5%;
 	color: black;
-	font-size: 25px;
-	padding: 10px;
-	border-radius: 5%;
-	text-decoration: none;
-
-}
-#online {
-	position: fixed;
-	top: 20%;
-	left: 28%;
-	background-color: white;
-	color: black;
-	font-size: 25px;
-	padding: 10px;
-	border-radius: 5%;
+	font-size: 160%;
 	text-decoration: none;
 }
 
-#onsite:hover {
-	right: 28%;
-	color: purple;
-	font-size: 25px;
-	padding: 20px;
-	border-radius: 5%;
-	text-decoration: none;
 
-}
-#online:hover {
-	left: 30%;
-	color: purple;
-	font-size: 25px;
-	padding: 20px;
-	border-radius: 5%;
-	text-decoration: none;
-}
 
-#tril {
-	position: fixed;
-	top: 27%;
-	left: 30%;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 20px solid white;
-}
-
-#trir {
-	position: fixed;
-	top: 27%;
-	right: 33%;
-	border-left: 20px solid transparent;
-	border-right: 20px solid transparent;
-	border-top: 20px solid white;
-}
 button {
 	display: none;
 }
@@ -120,46 +82,27 @@ button {
     padding: 15px 5px 15px 0;
 }
 #on img {
-	float: none;
-	padding: 5%;
-	width: 90%;
-	height: 50%;
-}
-#writ img {
-	float: none;
-	width: 90%;
-	height: 50%;
-	padding: 5%;
-}
-#onsite {
-	display: none;
-
-}
-#online {
-	display: none;
-}
-
-button {
-	display: inline-block;
+	position: fixed;
+	top: 45%;
+	left: 5%;
 	width: 80%;
-	height: 40px;
-	margin: 10%;
-	text-align: center;
-	background-color: #212121;
+	height: 50%;
 }
-button > a {
+#img > img {
+
+	position: fixed;
+	top: 15%;
+	left: 20%;
+	width: 50%;
+	height: 25%;
+
+}
+
+#write {
+    text-decoration: center;
+	color: black;
+	font-size: 120%;
 	text-decoration: none;
-	
-	color: white;
-}
-
-#tril {
-	display: none;
-	
-}
-
-#trir {
-	display: none;
 }
 
 }
