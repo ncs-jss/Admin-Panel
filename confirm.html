@@ -103,7 +103,7 @@
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header text-center">Registration Form </h1>
+                    <h1 class="page-header text-center">Confirmation Page</h1>
                 </div>
                 <!-- /.col-lg-12 -->
             </div>
@@ -115,15 +115,15 @@
                 <form role="form" method="POST" action="" id="registerform">
                     <div class="form-group">
                         <label class="control-label" for ="name"> Name : </label>
-                        <input id="name" name="name" type="text" placeholder="Enter your name" class="form-control input md" required>
+                        <input id="name" name="name" type="text" value="Ankit jain" class="form-control input md" disabled>
                     </div><br>
                     <div class="form-group">
                         <label class="control-label" for="email"> Email : </label>
-                        <input id="email" name="email" type="email" placeholder="Enter your Email" class="form-control input md" required>
+                        <input id="email" name="email" type="email" Value="Enter your Email" class="form-control input md" disabled>
                     </div><br>
                     <div class="form-group">
                         <label class="control-label" for="course"> Course : </label>
-                        <select id="course" name="course" class="form-control">
+                        <select id="course" name="course" class="form-control" disabled>
                             <option value="Btech"> Btech </option>
                             <option value="MBA"> MBA </option>
                             <option value="MCA">MCA </option>
@@ -134,7 +134,7 @@
 
                     <div id="branch" class="form-group">
                         <label class="control-label" for="branch" > Branch : </label>
-                        <select name="branch" id="course" class="form-control">
+                        <select name="branch" id="course" class="form-control" disabled>
                             <option value="CSE">CSE </option>
                             <option value="IT">IT</option>
                             <option value="EE">EE </option>
@@ -148,15 +148,15 @@
 
                     <div class="form-group">
                         <label class="control-label" for ="contact"> Contact : </label>
-                        <input id="contact" name="contact" type="text" placeholder="Enter your 10 digit Contact number" pattern ="\d{10}" maxlength=10 class="form-control input md" required>
+                        <input id="contact" name="contact" type="text" Value="Enter your 10 digit Contact number" pattern ="\d{10}" maxlength=10 class="form-control input md" disabled>
                     </div><br>
                     <div class="form-group">
                         <label class="control-label" for="college"> College :</label>
-                        <input type="text" id="college" name="college" placeholder="Enter the college name" class="form-control input md" required>
+                        <input type="text" id="college" name="college" Value="Enter the college name" class="form-control input md" disabled>
                     </div><br>
                     <div class="form-group">
                         <label class="control-label" for="year"> Year : </label>
-                        <select  class="form-control" id="year" name="year" >
+                        <select  class="form-control" id="year" name="year" disabled>
                             <option value="FIRST">FIRST</option>
                             <option value="SECOND">SECOND</option>
                             <option value="THIRD">THIRD</option>
@@ -165,7 +165,7 @@
                     </div><br>
                     <div class="form-group">
                         <button type="submit" id="submitbtn" name="submitbtn" class="col-lg-offset-3 btn btn-primary btn-lg" value="Back">Back</button>
-                        <button type="submit" id="submitbtn" name="submitbtn" class="col-lg-offset-1 btn btn-primary btn-lg" value="Register">Register</button>
+                        <button type="submit" id="submitbtn" name="submitbtn" class="col-lg-offset-1 btn btn-primary btn-lg" value="Confirm">Confirm</button>
                     </div>
                 </form>
             </div>
