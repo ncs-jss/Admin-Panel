@@ -23,6 +23,17 @@
     <!-- Custom Fonts -->
     <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
+    <style>
+        #outer {
+            position: fixed;
+            top: 150px;
+            z-index: 50000; 
+            background-color: white;   
+            height: 70%; 
+               }
+
+    </style>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -33,8 +44,17 @@
 </head>
 
 <body>
+    <div id="wrapper">
+        <nav style="background-color:#5cb85c; padding:20px; height:250px;" class="navbar navbar-default navbar-static-top " role="navigation" style="margin-bottom: 20px">
+            <div class="navbar-header" >
+                <a style="font-size:40px;" class="navbar-brand" href="index.html">Zealicon</a>
+            </div>
+        </nav>
+   
 
-    <div class="container">
+
+    <div class="container col-md-10 col-md-offset-1" id="outer" >
+
         <div class="row">
             <div class="col-md-4 col-md-offset-4">
                 <div class="login-panel panel panel-default">
@@ -62,6 +82,8 @@
             </div>
         </div>
     </div>
+     </div>
+
 
     <!-- jQuery -->
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
