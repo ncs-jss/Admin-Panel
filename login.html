@@ -26,10 +26,12 @@
     <style>
         #outer {
             position: absolute;
-            top: 250px;
+            top: 200px;
             z-index: 50000; 
             background-color: white;   
-            height: 54%; 
+            height: 60%; 
+            box-shadow: 2px 4px 16px 2px rgba(0,0,0,0.4);
+            /*border-bottom: 4px solid #3498DB;*/
                }
 
         #log {
@@ -37,7 +39,7 @@
         }
 
         nav {
-            background-image: url("cover.jpg");
+            background-color: #3498DB !important;
             height:350px;
             margin-bottom: 20px;
         }
@@ -47,8 +49,11 @@
         }
 
         #but {
-            background-color:#ee614c; 
-            border-color: #ee614c;
+            background-color:#3498DB; 
+            border-color: #3498DB;
+        }
+        .navbar-header {
+            text-align: center;
         }
 
     </style>
@@ -65,8 +70,8 @@
 <body>
     <div id="wrapper">
         <nav class="navbar navbar-default navbar-static-top " role="navigation">
-            <div class="navbar-header" >
-                <img id="zea" class="col-md-offset-6"  src="zealicon.png">
+            <div class="navbar-header col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-3" >
+                <img id="zea" class=""  src="Zealicon.png">
             </div>
         </nav>
    
